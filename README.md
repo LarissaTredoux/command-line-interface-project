@@ -1,14 +1,14 @@
-# vtc commands project
-The aim of this project is to extend the existing in-house developed command line tool used by VASTech. This will allow a user to view system events and alarms from the console if they do not have access to the GUI.
+# vtc command line interface
+The aim of this project is to create a command-line interface that will allow a user to view system events and alarms from the console if they do not have access to a GUI.
 
-The added functionality is as follows:
+The functionality is as follows:
   - Retrieve entries from a predefined MySQL database, permorming simple SQL queries based on the command line parameters given to the application
   - Format the query output result for the command line
 
 This functionality is developed in Python and makes use of the [Click] library. 
 
 ## How to use the functionality
-There is already a group of "cp" commands present in the command line tool. The commands developed for this project will comprise the "sp" group of commands. To use, then, one would type into the command line:
+The commands developed for this project will comprise the "sp" group of commands. To use, then, one would type into the command line:
 
 ```sh
 $ vtc sp
