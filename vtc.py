@@ -6,7 +6,7 @@ from sp import sp
 
 @click.group("vtc")
 def vtc():
-    """VASTech CLI"""
+    """vtc CLI"""
     pass
 
 
